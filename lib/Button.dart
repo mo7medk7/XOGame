@@ -19,7 +19,7 @@ class Button extends StatelessWidget {
                 onPressed: () {
                   onButtonClicked(index);
                 },
-                style: ElevatedButton.styleFrom(primary: Colors.teal),
+                style: ElevatedButton.styleFrom(primary: Colors.blue),
                 child: Text(
                   "$text ",
                   style: TextStyle(fontSize: 50),
